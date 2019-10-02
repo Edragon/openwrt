@@ -1,0 +1,4 @@
+JS7628_base_board_xxx.pdf：是底板PDF格式原理图
+JS7628_base_board_xxx_sch：是底板sch格式原理图
+JS7628_base_board_xxx.SCHLIB: 是底板元器件库
+JS7628_base_board_xxx.PcbLib：是底板PCB封装库

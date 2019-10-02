@@ -1,0 +1,2 @@
+JS7688_convert_board_xxxx.PcbLib：包含JS7688邮票孔版本PCB封装
+JS7688_convert_board_xxxx.SchDoc：JS7688_core_board邮票孔版本转排针版本原理图

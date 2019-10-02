@@ -1,0 +1,3 @@
+ZTK7628P_convert_board_xxxx.PcbLib：包含ZTK7628P邮票孔版本PCB封装
+ZTK7628P_convert_board_xxxx.SchDoc：是ZTK7628P_core_board邮票孔版本转排针版本的转接板原理图文件
+ZTK7628P_convert_board_xxxx_sch.pdf：是ZTK7628P_core_board邮票孔版本转排针版本的转接板原理图的pdf文件
