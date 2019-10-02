@@ -1,0 +1,176 @@
+Package: baresip-mod-alsa
+Version: 0.4.14-1
+Depends: libc, baresip, alsa-lib
+Source: feeds/telephony/net/baresip
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: ramips_24kec
+Installed-Size: 3362
+Filename: baresip-mod-alsa_0.4.14-1_ramips_24kec.ipk
+Size: 4110
+MD5Sum: d0dbe82d897b4868e51c5788a76f2f00
+SHA256sum: 177a8ee4827722b7d008aa72971f2bfc83500fd7c6595ac84860da40785e594a
+Description:  baresip ALSA audio driver module
+
+Package: baresip-mod-g711
+Version: 0.4.14-1
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: ramips_24kec
+Installed-Size: 1692
+Filename: baresip-mod-g711_0.4.14-1_ramips_24kec.ipk
+Size: 2466
+MD5Sum: aa473fe9eecb3ab3826e3bc7418a4913
+SHA256sum: ffce1703c797535f65d060b7f4e85efd2609bff2a190607de6ebf434d945e9bb
+Description:  baresip G.711 audio codec module
+
+Package: baresip-mod-g722
+Version: 0.4.14-1
+Depends: libc, baresip, libspandsp
+Source: feeds/telephony/net/baresip
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: ramips_24kec
+Installed-Size: 1688
+Filename: baresip-mod-g722_0.4.14-1_ramips_24kec.ipk
+Size: 2474
+MD5Sum: 25927c977e36b8feb9783e69f6c51d9d
+SHA256sum: 7d1ad796456cbab99bda998d7c1fd5e5f94d8f5895225afe5d997dc96fd7e45f
+Description:  baresip G.722 audio codec module
+
+Package: baresip-mod-g726
+Version: 0.4.14-1
+Depends: libc, baresip, libspandsp
+Source: feeds/telephony/net/baresip
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: ramips_24kec
+Installed-Size: 1816
+Filename: baresip-mod-g726_0.4.14-1_ramips_24kec.ipk
+Size: 2604
+MD5Sum: e03f36df2b3d70fdba17698829881b23
+SHA256sum: 92fd66789dc334a738a9c3607cdcb510eb442a3b58c5b88c0ee7c501cb9d4752
+Description:  baresip G.726 audio codec module
+
+Package: baresip-mod-httpd
+Version: 0.4.14-1
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: ramips_24kec
+Installed-Size: 2175
+Filename: baresip-mod-httpd_0.4.14-1_ramips_24kec.ipk
+Size: 2950
+MD5Sum: ac2b3e69a76ebf663f6cf3654a229639
+SHA256sum: 716ce2d1275eb103740b7f12dfd50383da0e11d20fe61fa77a0425697da96e79
+Description:  baresip Webserver UI module module
+
+Package: baresip-mod-oss
+Version: 0.4.14-1
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: ramips_24kec
+Installed-Size: 2674
+Filename: baresip-mod-oss_0.4.14-1_ramips_24kec.ipk
+Size: 3459
+MD5Sum: 9f7ebba90a59351183ac3d88ad30c739
+SHA256sum: 74f7348d9c293bd5bcea669212e5522e4e164988c8fa904b58b5aa8708a12a0e
+Description:  baresip OSS audio driver module
+
+Package: baresip-mod-stdio
+Version: 0.4.14-1
+Depends: libc, baresip
+Source: feeds/telephony/net/baresip
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: ramips_24kec
+Installed-Size: 2109
+Filename: baresip-mod-stdio_0.4.14-1_ramips_24kec.ipk
+Size: 2883
+MD5Sum: c137734721bf61c5efd7f048d1a203a4
+SHA256sum: 6e03f13d18ec92e33d9675aeb01d24e1e9a77ec819a684fdf3c66ee961e6b885
+Description:  baresip standard I/O UI module
+
+Package: baresip
+Version: 0.4.14-1
+Depends: libc, libre, librem, libpthread
+Source: feeds/telephony/net/baresip
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: ramips_24kec
+Installed-Size: 209762
+Filename: baresip_0.4.14-1_ramips_24kec.ipk
+Size: 210466
+MD5Sum: 95a721f424a980c611420390df4f5640
+SHA256sum: 459c76bcc967307e6ae65f5cdf506e32de38e092ba761ae3fddcee875ce19e6f
+Description:  Portable and modular SIP User-Agent with A/V support
+
+Package: libre
+Version: 0.4.13-1
+Depends: libc, libopenssl, libpthread
+Source: feeds/telephony/libs/re
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: libs
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: ramips_24kec
+Installed-Size: 149227
+Filename: libre_0.4.13-1_ramips_24kec.ipk
+Size: 149944
+MD5Sum: 94376bced9039d6829633892a456873d
+SHA256sum: 70d8e4987c590707d294cd389073f722163ed26f153321bd729b1821ccaae538
+Description:  Generic library for real-time communications with async IO support
+
+Package: librem
+Version: 0.4.6-1
+Depends: libc, libre, libpthread
+Source: feeds/telephony/libs/rem
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: libs
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: ramips_24kec
+Installed-Size: 17839
+Filename: librem_0.4.6-1_ramips_24kec.ipk
+Size: 18642
+MD5Sum: d199963b8ae8742326e5246e954e4f0f
+SHA256sum: 6720fe1c7603fb5b41a557940c04ea9e33ce242d128bf2ffe13d98d7a485f327
+Description:  Audio and video processing media library
+
+Package: libspandsp
+Version: 0.0.6-2
+Depends: libc, libtiff
+Source: feeds/telephony/libs/spandsp
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: ramips_24kec
+Installed-Size: 273754
+Filename: libspandsp_0.0.6-2_ramips_24kec.ipk
+Size: 273229
+MD5Sum: 10eda796a4112f52b3645ffaddfdb881
+SHA256sum: 4377759a19ea68ca916e234a4321dab3cee716fff7b8187151e5d52b44350599
+Description:  spandsp library
+

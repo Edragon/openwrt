@@ -1,0 +1,169 @@
+Package: luci-app-firewall
+Version: git-17.002.25203-6cf07ec-1
+Depends: libc, firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 10572
+Filename: luci-app-firewall_git-17.002.25203-6cf07ec-1_all.ipk
+Size: 11285
+MD5Sum: bb89f604dabaa2b27c450124d6949a1e
+SHA256sum: 36cec1bbb18211625fd7d4859ad31253722953a54cb6b80f1fcd98418a5226d8
+Description:  Firewall and Portforwarding application
+
+Package: luci-base
+Version: git-17.002.25203-6cf07ec-1
+Depends: libc, lua, libuci-lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: ramips_24kec
+Installed-Size: 123297
+Filename: luci-base_git-17.002.25203-6cf07ec-1_ramips_24kec.ipk
+Size: 124168
+MD5Sum: da6f72e65eb796cf9a8b070134d5bbaa
+SHA256sum: 9f3a7a05ecd66fcad7ec785366df6038c36b445da0a64fc1a576ee6a024482f7
+Description:  LuCI core libraries
+
+Package: luci-i18n-base-en
+Version: git-17.002.25203-6cf07ec-1
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 723
+Filename: luci-i18n-base-en_git-17.002.25203-6cf07ec-1_all.ipk
+Size: 1516
+MD5Sum: 83fd40dadba5f17d5424fd61e6a968dc
+SHA256sum: 5cab3bf7dc9b599a32716a30fda248b358848c9cce527aefd59d1e426cd6a898
+Description:  Translation for luci-base - English
+
+Package: luci-i18n-base-zh-cn
+Version: git-17.002.25203-6cf07ec-1
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 21412
+Filename: luci-i18n-base-zh-cn_git-17.002.25203-6cf07ec-1_all.ipk
+Size: 22196
+MD5Sum: 2a67bd2b0dfa9de3c16e2eee2a607b98
+SHA256sum: 7e966bee497da547098eb535561491338c2611f4f9e4bb68fbf0fc12e799f16e
+Description:  Translation for luci-base - 普通话 (Chinese)
+
+Package: luci-i18n-firewall-en
+Version: git-17.002.25203-6cf07ec-1
+Depends: libc, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 307
+Filename: luci-i18n-firewall-en_git-17.002.25203-6cf07ec-1_all.ipk
+Size: 1088
+MD5Sum: 29c119bd3c2b44d4b44b8b1ec7ff7f2e
+SHA256sum: 1eb89880eb2d19fbc655c2ba00f8f5cca82935d2aea17eb2f61b208f33bd45b7
+Description:  Translation for luci-app-firewall - English
+
+Package: luci-i18n-firewall-zh-cn
+Version: git-17.002.25203-6cf07ec-1
+Depends: libc, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 3921
+Filename: luci-i18n-firewall-zh-cn_git-17.002.25203-6cf07ec-1_all.ipk
+Size: 4710
+MD5Sum: 55a504096029ace80573c0a946621478
+SHA256sum: 151eb9d6cf938ab8916eb7daa903532190e7aa04bc4f0bd19adf0b05d6f018bb
+Description:  Translation for luci-app-firewall - 普通话 (Chinese)
+
+Package: luci-lib-ip
+Version: git-17.002.25203-6cf07ec-1
+Depends: libc, liblua, libnl-tiny
+Source: feeds/luci/libs/luci-lib-ip
+Section: luci
+Architecture: ramips_24kec
+Installed-Size: 9392
+Filename: luci-lib-ip_git-17.002.25203-6cf07ec-1_ramips_24kec.ipk
+Size: 10111
+MD5Sum: a321f88178d0da57a14b5e0633115243
+SHA256sum: 63fa9f8fd0e3defc587aea0e50ab8a2de5d29cf84330f318a190d3aa26bb56a1
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-nixio
+Version: git-17.002.25203-6cf07ec-1
+Depends: libc, liblua
+Source: feeds/luci/libs/luci-lib-nixio
+Section: luci
+Architecture: ramips_24kec
+Installed-Size: 29107
+Filename: luci-lib-nixio_git-17.002.25203-6cf07ec-1_ramips_24kec.ipk
+Size: 29746
+MD5Sum: 8cb852898b415e54881cd69c3ca170bf
+SHA256sum: 9e8f3d94c628637101354d3fbdcf0c8a5d23917e449cb4eefbfbff43b7b04a38
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: git-17.002.25203-6cf07ec-1
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-mod-admin-full
+Section: luci
+Architecture: ramips_24kec
+Installed-Size: 68599
+Filename: luci-mod-admin-full_git-17.002.25203-6cf07ec-1_ramips_24kec.ipk
+Size: 69417
+MD5Sum: 8051571f7da97963ef7cf1dc6703fbcb
+SHA256sum: c6ec164263ade93651584846e69fa75c7cffda596537780137729ec2404b6316
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-ipv6
+Version: git-17.002.25203-6cf07ec-1
+Depends: libc
+Source: feeds/luci/protocols/luci-proto-ipv6
+Section: luci
+Architecture: all
+Installed-Size: 4403
+Filename: luci-proto-ipv6_git-17.002.25203-6cf07ec-1_all.ipk
+Size: 5095
+MD5Sum: eb204b4115454bd7e237c30a7846fe64
+SHA256sum: 91788063cd7a493a6113427718f83e3803a3a97e0fc61c9abbb658f473d7c66a
+Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite/aiccu
+
+Package: luci-proto-ppp
+Version: git-17.002.25203-6cf07ec-1
+Depends: libc
+Source: feeds/luci/protocols/luci-proto-ppp
+Section: luci
+Architecture: all
+Installed-Size: 2632
+Filename: luci-proto-ppp_git-17.002.25203-6cf07ec-1_all.ipk
+Size: 3314
+MD5Sum: ae7adc2fb44caa3020c95425257ff2e7
+SHA256sum: 0362a08489f77068cbd08664dee972685fd4cad0631bd47a5d1164009da25bd4
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-theme-bootstrap
+Version: git-17.002.25203-6cf07ec-1
+Depends: libc
+Source: feeds/luci/themes/luci-theme-bootstrap
+Section: luci
+Architecture: all
+Installed-Size: 12796
+Filename: luci-theme-bootstrap_git-17.002.25203-6cf07ec-1_all.ipk
+Size: 13526
+MD5Sum: d02deb7a2124116b956533997f9f44f7
+SHA256sum: 1f01c0b5e5df91765987644fbb1b6b72974f4fb0fded8b19849bc2d808b233a4
+Description:  Bootstrap Theme (default)
+
+Package: luci
+Version: git-17.002.25203-6cf07ec-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, luci-proto-ipv6
+Source: feeds/luci/collections/luci
+Section: luci
+Architecture: all
+Installed-Size: 106
+Filename: luci_git-17.002.25203-6cf07ec-1_all.ipk
+Size: 884
+MD5Sum: fe77ebe33047d29060f2293d7be1fbb0
+SHA256sum: ceb16d317daa50aac478ee96f495f83c6f37d633837214d4e4190824c9d2fbec
+Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+

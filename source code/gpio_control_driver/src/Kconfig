@@ -1,0 +1,4 @@
+config GPIO_CONTROL_DRIVER
+        tristate "Gpio control driver for JS9331 and JS7628"
+        depends on GENERIC_GPIO
+

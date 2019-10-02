@@ -1,0 +1,1 @@
+“lede-ar71xx-generic-tl-wr720n-v3-squashfs-sysupgrade-20170808.bin”是JS9331开发板的openwrt出厂固件。

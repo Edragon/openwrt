@@ -1,0 +1,3 @@
+http://get.videolan.org/vlc-android/
+http://get.videolan.org/vlc-iOS/
+http://get.videolan.org/vlc/2.2.4/

@@ -1,0 +1,2 @@
+lede-toolchain-ar71xx-generic_gcc-5.4.0_musl.Linux-i686.tar.bz2：是运行在ubuntu 32bit上，用于编译openwrt应用程序的交叉工具链。
+lede-toolchain-ar71xx-generic_gcc-5.4.0_musl.Linux-x86_64.tar.bz2：是运行在ubuntu 32bit上，用于编译openwrt应用程序的交叉工具链。

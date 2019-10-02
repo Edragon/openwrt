@@ -1,0 +1,155 @@
+Package: luci-app-firewall
+Version: git-17.214.73730-b901533-1
+Depends: libc, firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 10777
+Filename: luci-app-firewall_git-17.214.73730-b901533-1_all.ipk
+Size: 11508
+SHA256sum: 311c805bee359685cca14db48ed425f67d386f06d17790875c490a95f9e41f45
+Description:  Firewall and Portforwarding application
+
+Package: luci-base
+Version: git-17.214.73730-b901533-1
+Depends: libc, lua, libuci-lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc
+License: Apache-2.0
+Section: luci
+Architecture: mips_24kc
+Installed-Size: 122812
+Filename: luci-base_git-17.214.73730-b901533-1_mips_24kc.ipk
+Size: 123760
+SHA256sum: 41049e0bf85bb845c2669aada3b08c6cbde61bb457cad3dcaac317c4c1e88501
+Description:  LuCI core libraries
+
+Package: luci-i18n-base-zh-cn
+Version: git-17.214.73730-b901533-1
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 27967
+Filename: luci-i18n-base-zh-cn_git-17.214.73730-b901533-1_all.ipk
+Size: 28789
+SHA256sum: c902aef44219af73460d129270b8f71b1426ba427b7a419e6d92cf56c73ec505
+Description:  Translation for luci-base - 中文 (Chinese)
+
+Package: luci-i18n-firewall-zh-cn
+Version: git-17.214.73730-b901533-1
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 3874
+Filename: luci-i18n-firewall-zh-cn_git-17.214.73730-b901533-1_all.ipk
+Size: 4674
+SHA256sum: 019bdcfd8ed7d8c4dae7b94a36f1c48d0ef7540b1448b318302898c31953b1e9
+Description:  Translation for luci-app-firewall - 中文 (Chinese)
+
+Package: luci-lib-ip
+Version: git-17.214.73730-b901533-1
+Depends: libc, liblua, libnl-tiny
+License: Apache-2.0
+Section: luci
+Architecture: mips_24kc
+Installed-Size: 8499
+Filename: luci-lib-ip_git-17.214.73730-b901533-1_mips_24kc.ipk
+Size: 9221
+SHA256sum: 5acea81425329ca34495e79925ac8bca6e71ee2d7d80e6b2320d39bab66439b7
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-jsonc
+Version: git-17.214.73730-b901533-1
+Depends: libc, liblua, libjson-c
+Section: luci
+Architecture: mips_24kc
+Installed-Size: 3560
+Filename: luci-lib-jsonc_git-17.214.73730-b901533-1_mips_24kc.ipk
+Size: 4250
+SHA256sum: f42db8fbc23e1e1e56cc5251b29554302bd6ff27c2980101d38cc243ef82256f
+Description:  Lua binding for JSON-C
+
+Package: luci-lib-nixio
+Version: git-17.214.73730-b901533-1
+Depends: libc, liblua
+License: Apache-2.0
+Section: luci
+Architecture: mips_24kc
+Installed-Size: 27230
+Filename: luci-lib-nixio_git-17.214.73730-b901533-1_mips_24kc.ipk
+Size: 27655
+SHA256sum: 6d5b2072364975df6d0c85d196e7a4259e535dae7176a4738630a61571454b23
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: git-17.214.73730-b901533-1
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+Architecture: mips_24kc
+Installed-Size: 76089
+Filename: luci-mod-admin-full_git-17.214.73730-b901533-1_mips_24kc.ipk
+Size: 76954
+SHA256sum: 66bb80a14f9f4d07d1d9c03135c48d0e5229afd5375dc19a4e656af82a50ad7a
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-ipv6
+Version: git-17.214.73730-b901533-1
+Depends: libc
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 4788
+Filename: luci-proto-ipv6_git-17.214.73730-b901533-1_all.ipk
+Size: 5518
+SHA256sum: ab1d387b77e86d623657e539e50a9cfb3ef2703180b74b833deacdbc6d9e66d5
+Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite/aiccu
+
+Package: luci-proto-ppp
+Version: git-17.214.73730-b901533-1
+Depends: libc
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 3086
+Filename: luci-proto-ppp_git-17.214.73730-b901533-1_all.ipk
+Size: 3775
+SHA256sum: 608da4bb58a25d0c501ac94911025b8eb35ea5831c8287f2475cb3d9ac85e807
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-theme-bootstrap
+Version: git-17.214.73730-b901533-1
+Depends: libc
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 13168
+Filename: luci-theme-bootstrap_git-17.214.73730-b901533-1_all.ipk
+Size: 13915
+SHA256sum: cf53cdf17b32edad035a008b71d66ec69904c4765b394747b5dc5eb42ac8d2c0
+Description:  Bootstrap Theme (default)
+
+Package: luci
+Version: git-17.214.73730-b901533-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, luci-proto-ipv6, rpcd-mod-rrdns
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 105
+Filename: luci_git-17.214.73730-b901533-1_all.ipk
+Size: 903
+SHA256sum: 0407af0203f8211990e10823b5c4e5225b96dcca71aacd05eb990bb6eacd421f
+Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+
+Package: rpcd-mod-rrdns
+Version: 20170710
+Depends: libc, rpcd, libubox, libubus
+License: Apache-2.0
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 3408
+Filename: rpcd-mod-rrdns_20170710_mips_24kc.ipk
+Size: 4214
+SHA256sum: adaec1293a4bb9074e30b45654737895dbc1c8b445cb07c23ee259c0ff89f9bd
+Description:  Provides rapid mass reverse DNS lookup functionality.
+

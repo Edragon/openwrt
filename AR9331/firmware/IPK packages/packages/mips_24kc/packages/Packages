@@ -1,0 +1,330 @@
+Package: alsa-lib
+Version: 1.1.4.1-1
+Depends: libc, kmod-sound-core, libpthread, librt
+License: LGPLv2.1 GPLv2
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 345710
+Filename: alsa-lib_1.1.4.1-1_mips_24kc.ipk
+Size: 343988
+SHA256sum: 7e9d11354843be120f1e72b821c812b70cee60267259ef96880f6762b9aac158
+Description:  This is the library package for alsa, needed by some userspace programs.
+ You must have enabled the ALSA support in the kernel.
+
+Package: alsa-utils
+Version: 1.1.0-1
+Depends: libc, alsa-lib, libncursesw, libpthread
+Section: sound
+Architecture: mips_24kc
+Installed-Size: 113630
+Filename: alsa-utils_1.1.0-1_mips_24kc.ipk
+Size: 112606
+SHA256sum: a7290d9565079fe9097755bf797d62a67bc63cf6f0e65551d57effbc6524283e
+Description:  ALSA (Advanced Linux Sound Architecture) utilities
+
+Package: boost-container
+Version: 1.64.0-1
+Depends: libc, libstdcpp, libpthread, librt
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 29275
+Filename: boost-container_1.64.0-1_mips_24kc.ipk
+Size: 30056
+SHA256sum: f2105c3672b1e9efc4382afc32f98c182bb7063d918f1c4209b5aec3ab5abe9c
+Description:  This package contains the Boost container library.
+
+Package: boost
+Version: 1.64.0-1
+Depends: libc, libstdcpp, libpthread, librt
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 105
+Filename: boost_1.64.0-1_mips_24kc.ipk
+Size: 1405
+SHA256sum: a1b5250b918f3c12ec8705507fa02a147d752b2e9d3425eac0e5a276161af373
+Description:  This package provides the Boost v1.64 libraries.
+ Boost is a set of free, peer-reviewed, portable C++ source libraries.
+ 
+ -----------------------------------------------------------------------------
+ |                                Warning                                    |
+ | In order to build all of the Boost Libraries, it is necessary             |
+ | to use, at least, GCC version 5 (C++14 support) and, it is necessary to   |
+ | compile the kernel with Full Language Support.                            |
+ | Without these requirerements, the following libs will not be available:   |
+ | - Boost.Locale                                                            |
+ | - Boost.Coroutine2                                                        |
+ | - Boost.Fiber                                                             |
+ -----------------------------------------------------------------------------
+ 
+ This package provides the following run-time libraries:
+ - atomic
+ - chrono
+ - container
+ - context
+ - coroutine (Deprecated - use Coroutine2)
+ - - coroutine2 (Requires GCC v5 and up)
+ - date_time
+ - exception
+ - filesystem
+ - fiber (Requires GCC v5 and up)
+ - graph
+ - - graph-parallel
+ - iostreams
+ - locale (Requires kernel being compiled with full language support)
+ - log
+ - math
+ - program_options
+ - python
+ - python3
+ - random
+ - regex
+ - serialization
+ - signals
+ - system
+ - thread
+ - timer
+ - wave
+ 
+ There are many more header-only libraries supported by Boost.
+ See more at http://www.boost.org/doc/libs/1_64_0/
+
+Package: glib2
+Version: 2.53.4-1
+Depends: libc, zlib, libpthread, libffi, libattr
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 985614
+Filename: glib2_2.53.4-1_mips_24kc.ipk
+Size: 979264
+SHA256sum: 7f53aa67e28c669a7cf6d5378b0181e36ae4b25fb354fc79cbae32c6a890c24b
+Description:  The GLib library of C routines
+
+Package: libattr
+Version: 20160302-1
+Depends: libc
+License: LGPL-2.1 GPL-2.0
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 5664
+Filename: libattr_20160302-1_mips_24kc.ipk
+Size: 6425
+SHA256sum: a557f3020b3a2c3b8d6e4a87852f14fff2cd10bd22a2a9c4184c4db2b6d4ae5a
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libexpat
+Version: 2.2.2-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 47749
+Filename: libexpat_2.2.2-1_mips_24kc.ipk
+Size: 48377
+SHA256sum: 00e56332df26e8b7d439a1f34aa01b931bb784590c4bbabc7df815c858feea6a
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.2.1-2
+Depends: libc
+License: MIT
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 5470
+Filename: libffi_3.2.1-2_mips_24kc.ipk
+Size: 6471
+SHA256sum: a6b997ea1ce82e98bea6af8aa536baf9ba001c4562573fe28706b6cb0b206d30
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libflac
+Version: 1.3.2-1
+Depends: libc
+License: GFDL-1.2 GPL-2 LGPL-2.1 BSD-3-Clause
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 76959
+Filename: libflac_1.3.2-1_mips_24kc.ipk
+Size: 77660
+SHA256sum: df30a8667beb63ad4a136ef628d4d44c2c714beaafad2602019e83b424f1d389
+Description:  Free Lossless Audio Codec library
+
+Package: libid3tag
+Version: 0.15.1b-4
+Depends: libc, zlib
+License: GPL-2
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 23493
+Filename: libid3tag_0.15.1b-4_mips_24kc.ipk
+Size: 23823
+SHA256sum: 449f2ef2cf14353b0ca23136aea404ff9f57c9675acb603b6ba2516f08fdbfe4
+Description:  libid3tag is a library for reading and (eventually) writing ID3 tags, both
+ ID3v1 and the various versions of ID3v2.
+
+Package: libjpeg
+Version: 9a-1
+Depends: libc
+License: IJG
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 89689
+Filename: libjpeg_9a-1_mips_24kc.ipk
+Size: 90399
+SHA256sum: 57ad64f9c11ddaaf757a45229fa4c3ad2519ec1d698b1ab01cdaff2be1db2d5f
+Description:  The Independent JPEG Group's JPEG runtime library
+
+Package: libmad
+Version: 0.15.1b-3
+Depends: libc
+License: GPLv2
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 57540
+Filename: libmad_0.15.1b-3_mips_24kc.ipk
+Size: 58558
+SHA256sum: 97fb8ed69a6af9c2402fb509ce80b51a26914e3d4ccf2de80739f70914c6ee53
+Description:  MAD is a high-quality MPEG audio decoder. It currently supports
+ MPEG-1 and the MPEG-2 extension to lower sampling frequencies,
+ as well as the de facto MPEG 2.5 format. All three audio layers -
+ Layer I, Layer II, and Layer III (i.e. MP3) - are fully implemented.
+
+Package: libmpdclient
+Version: 2.11-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 25504
+Filename: libmpdclient_2.11-1_mips_24kc.ipk
+Size: 26299
+SHA256sum: cb2105ccd68bec5a4aa208eac8e35482a07fc573c6211159b6a4f199c0b19465
+Description:  A stable, documented, asynchronous API library for interfacing MPD in the C, C++ & Objective C languages.
+
+Package: libogg
+Version: 1.3.2-2
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 8208
+Filename: libogg_1.3.2-2_mips_24kc.ipk
+Size: 9134
+SHA256sum: b6978c00c46855a6837c99c9784e5a86493adc5c4f2122f3eed34a53e5cf3f30
+Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw,
+ compressed bitstream into a more robust, useful form.  For example,
+ the Ogg bitstream makes seeking, time stamping and error recovery
+ possible, as well as mixing several sepearate, concurrent media
+ streams into a single physical bitstream.
+
+Package: libvorbisidec
+Version: 1.0.3-20150104-1
+Depends: libc, libogg
+License: BSD-3-Clause
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 74900
+Filename: libvorbisidec_1.0.3-20150104-1_mips_24kc.ipk
+Size: 75862
+SHA256sum: 10807ba3382c2cf43e85d755e51289dddd6c6191a8a8730fb79e7b9d63153bc2
+Description:  libvorbisidec is "tremor", a fixed-point implementation of libvorbis.
+ It also has libogg built-in. It is suitable as a replacement for
+ libvorbis and libogg in tremor-aware applications.
+ Tremor is a decoder only.
+
+Package: madplay-alsa
+Version: 0.15.2b-6
+Depends: libc, libid3tag, libmad, alsa-lib
+License: GPL-2.0+
+Section: sound
+Architecture: mips_24kc
+Installed-Size: 29767
+Filename: madplay-alsa_0.15.2b-6_mips_24kc.ipk
+Size: 30331
+SHA256sum: 035ab9f4c69e1741f9cce09e85ecf367511ac321e01f4af09951f1998fd1bdc5
+Description:  MPEG audio player in fixed point - alsa
+
+Package: madplay
+Version: 0.15.2b-6
+Depends: libc, libid3tag, libmad
+License: GPL-2.0+
+Section: sound
+Architecture: mips_24kc
+Installed-Size: 28610
+Filename: madplay_0.15.2b-6_mips_24kc.ipk
+Size: 29381
+SHA256sum: 0421ceca91b6f820f15e7ffc403c3cd47535d56c070f6631f060ce355ec4b833
+Description:  MAD is an MPEG audio decoder. It currently only supports the MPEG 1
+ standard, but fully implements all three audio layers (Layer I, Layer II,
+ and Layer III, the latter often colloquially known as MP3.). There is also
+ full support for ID3 tags.
+
+Package: minicom
+Version: 2.7-3
+Depends: libc, libncurses
+License: GPL-2.0
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 63933
+Filename: minicom_2.7-3_mips_24kc.ipk
+Size: 64606
+SHA256sum: 71c1916277c9ba197f21f888090ea354e46be324a94a58239f677698110716c2
+Description:  Terminal emulation program
+
+Package: mjpg-streamer
+Version: r182-8
+Depends: libc, libpthread, libjpeg
+License: GPL-2.0
+Section: multimedia
+Architecture: mips_24kc
+Installed-Size: 30492
+Filename: mjpg-streamer_r182-8_mips_24kc.ipk
+Size: 31303
+SHA256sum: d9d36cbcacd4617ba95fab98d720ea1ca1d42fe2543e660a8b88459aa315bf32
+Description:  Streaming application for Linux-UVC compatible webcams
+
+Package: ntfs-3g
+Version: 2017.3.23-1-fuseint
+Depends: libc, kmod-fuse, libpthread
+License: GPL-2.0 LGPL-2.0
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 189905
+Filename: ntfs-3g_2017.3.23-1-fuseint_mips_24kc.ipk
+Size: 190997
+SHA256sum: 002fce412186e1cebf041bb315cc39c2999a2b8e5842347969a309a92f0f128b
+Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
+ move files, directories, hard links, and streams. It can read
+ and write files, including streams and sparse files. It can
+ handle special files like symbolic links, devices, and FIFOs.
+ Moreover it can also read transparently compressed files.
+ 
+ Contains:
+ - ntfs-3g
+ - ntfs-3g.probe
+ - mount.ntfs-3g (symlink to ntfs-3g)
+ 
+
+Package: ser2net
+Version: 3.4-2
+Depends: libc
+License: GPL-2.0+
+Section: net
+Architecture: mips_24kc
+Installed-Size: 41208
+Filename: ser2net_3.4-2_mips_24kc.ipk
+Size: 41998
+SHA256sum: 3cc055abe1a411ebe8b2627d38422c0170be2fcba4d1ccc740b263a223dcc45e
+Description:  This project provides a proxy that allows telnet/tcp connections to be made to
+ serial ports on a machine.
+

@@ -1,0 +1,1 @@
+“JS7628_eeprom.bin”是JS7628开发板的EEPROM区数据（openwrt里面的“factory”区），一般用户不用关心。

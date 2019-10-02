@@ -1,0 +1,1 @@
+OpenWrt-Toolchain-ramips-mt7628_gcc-4.8-linaro_uClibc-0.9.33.2.Linux-i686.tar.bz2：是用于mipsel平台的交叉编译工具，如果用户不清楚如何安装使用，请查看《JS7628开发板openwrt入门教程》里面相关章节的介绍。

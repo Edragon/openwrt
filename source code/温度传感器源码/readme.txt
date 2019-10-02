@@ -1,0 +1,1 @@
+如需编译温度传感器源码，将temp_sensor.tar.bz2解压到 openwrt源码目录\package\utils 下，make menuconfig -> Utilities  ---><M> js9331_temp_sensor 生成安装包。

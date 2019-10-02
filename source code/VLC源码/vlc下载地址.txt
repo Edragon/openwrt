@@ -1,0 +1,4 @@
+http://get.videolan.org/vlc-android/
+http://get.videolan.org/vlc-iOS/
+http://get.videolan.org/vlc/2.2.4/
+VLC-Android-2.0.6-ARMv8.apk:是VLC的安卓安装包

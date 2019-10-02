@@ -1,0 +1,45 @@
+Package: baresip
+Version: 0.5.0-1
+Depends: libc, libre, librem, libpthread
+Source: feeds/telephony/net/baresip
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mips_24kc
+Installed-Size: 211911
+Filename: baresip_0.5.0-1_mips_24kc.ipk
+Size: 212844
+SHA256sum: 25c41024caa243e2f5a0c24c9f980a1a66c62d9b1595e8056b6677f9a9df3bb7
+Description:  Portable and modular SIP User-Agent with A/V support
+
+Package: libre
+Version: 0.4.17-1
+Depends: libc, libopenssl, libpthread, zlib
+Source: feeds/telephony/libs/re
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: libs
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mips_24kc
+Installed-Size: 139752
+Filename: libre_0.4.17-1_mips_24kc.ipk
+Size: 140716
+SHA256sum: d6a49429c07212adce3874c857f81a5a8bdd3cc383cc34e01cf9a5aeb47680ca
+Description:  Generic library for real-time communications with async IO support
+
+Package: librem
+Version: 0.4.7-1
+Depends: libc, libre, libpthread
+Source: feeds/telephony/libs/rem
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: libs
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mips_24kc
+Installed-Size: 16786
+Filename: librem_0.4.7-1_mips_24kc.ipk
+Size: 17581
+SHA256sum: d86808e5be46cc8b0633938926ddacd0917a8878828317a717bf1f68e193e260
+Description:  Audio and video processing media library
+
