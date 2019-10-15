@@ -1,0 +1,7 @@
+MediaTek_ApSoC_SDK_4320_20150414.tar.bz2  // MTK官方提供的Linux版本SDK，MTK_APSoC_SDK_User_Manual.pdf是对应的开发手册
+mtksdk-openwrt-3.10.14-20150311-d021c937.tar.bz2  // MTK官方提供的OpenWrt版本SDK，MTK-OpenWrt-3.10.14-SDK-Release-Notes.docx是对应的开发手册
+
+
+注意：
+1，以上源码和文件都是MTK官方提供的，我们并没有做任何的修改，也没有配套的视频教程和技术支持。
+2，我们公司维护的源码是基于OpenWrt官网提供的CC1505版本进行的。配套的视频教程也是基于该版本源码进行录制的。
